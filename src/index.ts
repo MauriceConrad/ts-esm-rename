@@ -6,8 +6,8 @@ import path from 'path'
 
 interface ITSESMRenameArguments{
   target: string;
-  regexImportStatement: string;
-  regexFilename: string;
+  ['regex-import-statement']: string;
+  ['regex-filename']: string;
 }
 
 export const args = Object.assign({
@@ -19,11 +19,11 @@ export const args = Object.assign({
     alias: 't',
     defaultOption: true
   },
-  regexImportStatement: {
+  ['regex-import-statement']: {
     type: String,
     alias: 'i'
   },
-  regexFilename: {
+  ['regex-filename']: {
     type: String,
     alias: 'f'
   }

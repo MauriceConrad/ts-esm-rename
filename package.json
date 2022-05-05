@@ -1,6 +1,6 @@
 {
   "name": "ts-esm-rename",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Rename extensionn-less imports from typescript's ESM build to .js to support native node esm imports",
   "module": "lib/index.js",
